@@ -6,7 +6,6 @@ function NavLinks() {
       <div className="center">
         <img src="./images/Nav.png" className="imgNav" alt="Logo" />
       </div>
-
       <div className="center">
         <NavLink className="flexItems" to="/">
           Home

@@ -4,53 +4,18 @@
   box-sizing: border-box;
 }
 
-/* .imgNav {
-  width: 10.125rem;
-  height: 3.5625rem;
-  flex-shrink: 0;
-  margin-top: 1.46rem;
-  margin-right: 2.36rem;
-  margin-bottom: 1.56rem;
-}
 .navLinks {
-  background-color: aliceblue;
-  width: 100%;
-  height: 5rem;
   display: flex;
-  align-items: center;
-  align-items: center;
   justify-content: space-between;
-  margin-left: 11.26rem;
-  margin-right: 15.26rem;
-}
-.rap {
-}
-.flexItems {
-  color: #000;
-  font-family: Mongolian Baiti;
-  font-size: 1.05575rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
-  transition: color 0.4s ease;
-}
-.flexItems:hover {
- 
-} */
-.navLinks {
-  display: flex;
-  justify-content: space-between; /* Distribute elements evenly, centering them horizontally */
-  align-items: center; /* Center elements vertically */
-  background-color: aliceblue; /* Background color for the navigation bar */
-  padding: 10px 20px; /* Add padding for spacing */
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px 20px;
 }
 
 .imgNav {
-  width: 10.125rem;
-  height: 3.5625rem;
+  width: 10rem;
+  height: 2.5rem;
   margin-left: 12rem;
-  /* Adjust the maximum width for your logo */
 }
 
 .flexItems {
@@ -62,7 +27,7 @@
   line-height: normal;
   text-decoration: none;
   transition: color 0.4s ease;
-  margin: 0 15px; /* Add spacing between the links horizontally */
+  margin: 0 15px;
 }
 .flexItem {
   color: #000;
@@ -81,5 +46,8 @@
   color: rgb(199, 186, 5);
 }
 .flexItem:hover {
+  color: rgb(199, 186, 5);
+}
+.active {
   color: rgb(199, 186, 5);
 }
